@@ -30,6 +30,22 @@ struct LoaderView: View {
                 .scaleEffect(3)
             }
         }
+        .navigationTitle("Profile")
+        .toolbar {
+            ToolbarItemGroup(placement: .navigationBarTrailing) {
+                Button{
+                    print("Save content")
+                } label: {
+                    Label("Save", systemImage: "square.and.arrow.down")
+                }
+                Button{
+                    print("Clear content")
+                } label: {
+                    Label("Clear", systemImage: "circle.lefthalf.fill")
+                }
+            }
+            
+        }
         .onAppear { startFakeNetworkCall() }
     }
     

@@ -62,6 +62,7 @@ struct ReductedView: View {
             
             Spacer()
         }
+        
         .frame(width: 300, height: 400, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         .onAppear { reductedNetworkCall()}
         .redacted(reason: isLoading ? .placeholder: [])
@@ -85,6 +86,7 @@ struct ReductedView: View {
 struct ReductedView_Previews: PreviewProvider {
     static var previews: some View {
         ReductedView()
+            .preferredColorScheme(.light)
       
     }
 }
