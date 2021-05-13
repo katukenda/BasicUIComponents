@@ -15,17 +15,15 @@ struct LoaderView: View {
             Color(.systemBackground)
                 .ignoresSafeArea()
             
-            Text("Example screen")
-                .bold()
-                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                .padding()
+            ReductedView()
+               
             
             if isLoading {
                 
                 ZStack{
                     Color(.systemBackground)
                         .ignoresSafeArea()
-                        .opacity(/*@START_MENU_TOKEN@*/0.8/*@END_MENU_TOKEN@*/)                }
+                        .opacity(0.8)                }
                 
                 ProgressView()
                 .progressViewStyle(CircularProgressViewStyle(tint: .red))
@@ -42,6 +40,7 @@ struct LoaderView: View {
         }
     }
 }
+
 struct LoaderView_Previews: PreviewProvider {
     static var previews: some View {
         LoaderView()
