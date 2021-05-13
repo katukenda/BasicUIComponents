@@ -39,8 +39,9 @@ struct ReductedView: View {
                         .unredacted()
                     Link(destination: URL(string: "https://katukenda.netlify.app")!, label: {
                         Text("My Website")
+                        
                     })
-                    .foregroundColor(.black)
+                    
                     
                 }
             }

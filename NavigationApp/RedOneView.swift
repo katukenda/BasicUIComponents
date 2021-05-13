@@ -50,6 +50,13 @@ struct RedOneView: View {
                     label: {
                         navButton(butonName: "Tab View", buttonColor: .blue)
                     })
+                NavigationLink(
+                    destination: SegmentView()
+                        .navigationTitle("Segment View")
+                    ,
+                    label: {
+                        navButton(butonName: "Segment View", buttonColor: .gray)
+                    })
             }
         }
         .accentColor(Color(.label))
