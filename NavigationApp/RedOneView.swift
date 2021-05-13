@@ -11,10 +11,10 @@ struct RedOneView: View {
     var body: some View {
         NavigationView {
             VStack {
-                CircleNumberView(color: .red, number: 1)
+               Text("This is home page")
                     .navigationBarTitle("Home Page", displayMode: .inline)
                     .offset(y: -60)
-                
+        
                 NavigationLink(
                     destination: BlueTwoView(color: .black),
                     label: {
@@ -27,6 +27,13 @@ struct RedOneView: View {
                     ,
                     label: {
                         navButton(butonName: "Date Picker", buttonColor: .blue)
+                    })
+                NavigationLink(
+                    destination: ColorPickerView()
+                        .navigationTitle("Color Picker")
+                    ,
+                    label: {
+                        navButton(butonName: "Color Picker", buttonColor: .red)
                     })
                 
                 NavigationLink(

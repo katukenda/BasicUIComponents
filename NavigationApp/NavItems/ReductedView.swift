@@ -37,7 +37,11 @@ struct ReductedView: View {
                 HStack{
                     Image(systemName: "network")
                         .unredacted()
-                    Text("katukenda.netlify.app")
+                    Link(destination: URL(string: "https://katukenda.netlify.app")!, label: {
+                        Text("My Website")
+                    })
+                    .foregroundColor(.black)
+                    
                 }
             }
             
