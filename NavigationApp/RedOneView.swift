@@ -52,10 +52,17 @@ struct RedOneView: View {
                     })
                 NavigationLink(
                     destination: SegmentView()
-                        .navigationTitle("Segment View")
+                         .navigationTitle("Segment View")
                     ,
                     label: {
                         navButton(butonName: "Segment View", buttonColor: .gray)
+                    })
+                NavigationLink(
+                    destination: FormView()
+                        .navigationTitle("Form View")
+                    ,
+                    label: {
+                        navButton(butonName: "Form View", buttonColor: .red)
                     })
             }
         }

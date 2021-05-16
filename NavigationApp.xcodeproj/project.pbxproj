@@ -13,6 +13,7 @@
 		063C00ED264CD72400F02419 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C00EC264CD72400F02419 /* ColorPickerView.swift */; };
 		063C00EF264CE37800F02419 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063C00EE264CE37800F02419 /* SegmentView.swift */; };
 		068C63B4264C36000057CCF9 /* NavigationAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068C63B3264C36000057CCF9 /* NavigationAppApp.swift */; };
+		06ABDEE62651796B00C79007 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06ABDEE52651796B00C79007 /* FormView.swift */; };
 		06B80BF3264847EF0038C79E /* DailyCash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B80BF2264847EF0038C79E /* DailyCash.swift */; };
 		06B80BF5264848060038C79E /* StockPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B80BF4264848060038C79E /* StockPortfolio.swift */; };
 		06B80BF72648481E0038C79E /* CryptoPortfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B80BF62648481E0038C79E /* CryptoPortfolio.swift */; };
@@ -29,6 +30,7 @@
 		063C00EC264CD72400F02419 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		063C00EE264CE37800F02419 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
 		068C63B3264C36000057CCF9 /* NavigationAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAppApp.swift; sourceTree = "<group>"; };
+		06ABDEE52651796B00C79007 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		06B80BF2264847EF0038C79E /* DailyCash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCash.swift; sourceTree = "<group>"; };
 		06B80BF4264848060038C79E /* StockPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPortfolio.swift; sourceTree = "<group>"; };
 		06B80BF62648481E0038C79E /* CryptoPortfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoPortfolio.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				063C00EA264CCC5900F02419 /* ReductedView.swift */,
 				063C00EC264CD72400F02419 /* ColorPickerView.swift */,
 				063C00EE264CE37800F02419 /* SegmentView.swift */,
+				06ABDEE52651796B00C79007 /* FormView.swift */,
 			);
 			path = NavItems;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06ABDEE62651796B00C79007 /* FormView.swift in Sources */,
 				06C41F6C2646AF7500CA4E4E /* RedOneView.swift in Sources */,
 				06B80BF5264848060038C79E /* StockPortfolio.swift in Sources */,
 				06B80BF3264847EF0038C79E /* DailyCash.swift in Sources */,
